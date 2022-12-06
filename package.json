@@ -1,7 +1,19 @@
 {
   "name": "shopping-list",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warpedrhubarb/shopping-list.git"
+  },
+  "keywords": [
+    "shopping list",
+    "groceries"
+  ],
+  "author": "Maksim S <xiuxiustephane@gmail.com>",
+  "bugs": {
+    "url": "github.com/warpedrhubarb/shopping-list/issues"
+  },
+  "homepage": "https://github.com/warpedrhubarb/shopping-list",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
