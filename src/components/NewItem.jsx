@@ -3,7 +3,7 @@ import { v4 as uuid } from 'uuid';
 import * as bootstrap from 'bootstrap';
 import validateItem from '../utils/validateItem';
 
-export const NewItem = (props) => {
+export function NewItem(props) {
   const { items, setItems, setErrorMessage, errorToast } = props;
   const [inputValue, setInputValue] = useState('');
   const [inputAmount, setInputAmount] = useState(1);

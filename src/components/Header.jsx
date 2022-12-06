@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faListOl } from '@fortawesome/free-solid-svg-icons';
 
-export const Header = () => {
+export function Header() {
   return (
     <section className="mb-5 text-center">
       <div className="float-start position-absolute m-lg-1">

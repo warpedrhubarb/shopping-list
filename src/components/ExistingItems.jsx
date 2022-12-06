@@ -2,7 +2,7 @@ import React from 'react';
 import * as bootstrap from 'bootstrap';
 import validateItem from '../utils/validateItem';
 
-export const ExistingItems = (props) => {
+export function ExistingItems(props) {
   const { items, setItems, setErrorMessage, errorToast } = props;
   const handleModifyItem = (item, event) => {
     const toast = new bootstrap.Toast(errorToast.current);
@@ -69,4 +69,4 @@ export const ExistingItems = (props) => {
       ))}
     </section>
   );
-}
+};
