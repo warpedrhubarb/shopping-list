@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrashCan } from '@fortawesome/free-regular-svg-icons';
 import * as bootstrap from 'bootstrap';
 import validateItem from '../utils/validateItem';
 
@@ -62,7 +64,7 @@ export function ExistingItems(props) {
               onClick={() => handleRemoveButtonClick(item.id)}
               aria-label="Remove"
             >
-              Remove
+              <FontAwesomeIcon icon={faTrashCan} />
             </button>
           </div>
         </form>

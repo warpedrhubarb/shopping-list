@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="app-background">
-      <div className="main-container m-5">
+      <div className="main-container col-12 col-lg-6 col-xl-6 col-xxl-6">
         <Header />
         <ExistingItems
           items={items}

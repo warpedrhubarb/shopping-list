@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import { v4 as uuid } from 'uuid';
 import * as bootstrap from 'bootstrap';
 import validateItem from '../utils/validateItem';
@@ -60,7 +62,9 @@ export function NewItem(props) {
           />
         </div>
         <div className="col-3">
-          <button type="submit" className="btn btn-primary w-100" aria-label="Add">Add</button>
+          <button type="submit" className="btn btn-primary w-100" aria-label="Add">
+            <FontAwesomeIcon icon={faPlus} size="lg" />
+          </button>
         </div>
       </form>
     </section>
